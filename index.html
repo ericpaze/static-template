@@ -1,12 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
-  </head>
-  <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
-  </body>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+   <style type="text/css">
+	
+	body, html{
+		height: 100%;
+		margin: 0;
+	}
+
+	.bg{
+		background-image: url("http://santisimoredentorsevilla.es/wp-content/uploads/2019/04/maxresdefault-1.jpg");
+		height: 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h1{
+		text-align: center;
+		/*border-bottom: 5px solid blue;
+  		background-color: lightgrey;*/
+	}
+	.texto p{
+		text-align: center;
+		margin-left: 25%;
+		margin-right: 25%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background: white;
+		color: grey;		
+	}
+	.texto p:hover{
+		background-color: rgba(0,0,255,0.3);
+		color: black;
+		transition: 2s;
+	}
+	.texto .image-center{
+		text-align: center;
+	}
+	head{
+		font-family: helvetica neue;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	.col {
+		margin-top: 50px;
+	}
+	.nav{
+		text-align: center;
+	}
+	footer{
+		background: black;
+		color: white;
+		padding: 30px;
+		margin-top: 10%;
+		text-align: center
+	}
+
+   </style>
+
+	<title>Ejercicio clase</title>
+
+</head>
+
+<body>
+
+	<div class="col text-left">
+          <h1 class="animated fadeInUp delay-1s">LOGO</h1>
+
+    </div>
+
+	<ul class="nav animated flipInX delay-1s">
+  		<li class="nav-item">
+    		<a class="nav-link active" href="#">Home</a>
+  		</li>
+
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">Menu 1</a>
+ 		 </li>
+
+  		<li class="nav-item">
+   			 <a class="nav-link" href="#">Menu 2</a>
+ 		 </li>
+
+ 		 <li class="nav-item">
+			<a class="nav-link" href="#">Menu 3</a>
+ 		 </li>  
+	</ul>
+
+
+	<div class="bg">
+		
+	</div>
+	
+   <div class="col text-left">
+          <h1 class="animated fadeInUp delay-1s">TITULO</h1>
+    </div>
+
+    <div class="texto">
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis imperdiet orci, at ultrices arcu. Sed nisi elit, eleifend sit amet imperdiet ut, dignissim vitae lectus. Aliquam eu vulputate ipsum, vel fermentum dui. Phasellus vitae elit nec elit tempor dignissim. Vestibulum eleifend lacinia arcu vel viverra. Morbi purus dui, luctus ac lectus quis, dapibus finibus mauris. Sed aliquam neque lorem, vel lacinia dolor sodales pretium. Vestibulum ex ex, dictum in dolor a, feugiat dignissim turpis. Phasellus placerat, enim ac aliquet finibus, mauris velit pulvinar sem, in pellentesque sem dolor non elit. Morbi aliquet gravida faucibus. Morbi mattis tristique ex, sit amet faucibus nibh tincidunt a. Phasellus accumsan luctus diam viverra fringilla.</p>
+    	
+    <div class="image-center">
+    	<img src="https://white-paradise.com/wp-content/uploads/banner_02_.jpg" alt="imagen" style="width:30%; border: 5px solid blue;">
+    </div>
+    	
+    </div>
+
+    <footer>
+    	<p>Pero bueno que divertido</p>
+    </footer>
+
+</body>
+
+
 </html>
